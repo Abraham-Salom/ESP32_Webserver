@@ -1,0 +1,28 @@
+<html>
+<head>
+<style>
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+    
+.button1 {background-color: #000000;} /* Green */
+</style>
+</head>
+<body>
+
+<h1>NAY ESP32 SAMNAY WEBSERVER</h1>
+<p>Toggle the DC MOTOR (GPIO4)</p>
+<h3> MOTOR STATE : ON </h3>
+
+<button class="button button1" onclick="window.location.href='{{url_for('ledoff')}}'">TURN MOTOR OFF</button>
+
+</body>
+</html>
